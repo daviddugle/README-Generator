@@ -71,5 +71,5 @@ inquirer
 
 ])
 .then((data) =>{
-
+    console.log(data);
 });

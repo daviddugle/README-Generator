@@ -73,24 +73,48 @@ inquirer
     console.log(data);
 //let's set up what we want to put in the file
 const readMeGen = 
-`##${data.title}
+`#${data.title}
 
 
-#${data.license}
+####Table of Contents
 
-#Description
+
+[Description](##Description)
+
+[Installation](##Installation)
+
+[Usage](##Usage)
+
+[Contributing](##Contributing)
+
+[Tests](##Tests)
+
+
+
+##${data.license}
+
+##Description
+
 ${data.description}
 
-#Installation Instructions
+
+##Installation Instructions
+
 ${data.installation}
 
-#Usage
+
+##Usage
+
 ${data.usage}
 
-#Contributing
+
+##Contributing
+
 ${data.contributor}
 
-#Tests
+
+##Tests
+
 ${data.test}`;
 
 //let's create the file

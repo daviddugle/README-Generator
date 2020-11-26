@@ -95,21 +95,23 @@ const readMeGen =
 ### Table of Contents
 
 
-[Description](##Description)
+* [Description](##Description)
 
-[Installation](##Installation)
+* [Installation](##Installation)
 
-[Usage](##Usage)
+* [Technologies](##Technologies)
 
-[Contributing](##Contributing)
+* [Usage](##Usage)
 
-[Questions](##Questions)
+* [Contributing](##Contributing)
 
-[Tests](##Tests)
+* [Questions](##Questions)
 
-[Photos](##Photos)
+* [Tests](##Tests)
 
-[Video](##Video)
+* [Photos](##Photos)
+
+* [Video](##Video)
 
 
 
@@ -139,6 +141,11 @@ ${data.description}
 ${data.installation}
 
 
+
+
+## Technologies Used
+
+* list your technologies used in the app
 
 
 

@@ -1,18 +1,15 @@
+//this is looking at the npm
 const inquirer = require('inquirer');
+//this is requiring node files
 const fs = require('fs');
 
 inquirer 
 .prompt([
-
+//these are the questions that it is going to ask
 {
     type: 'input',
     message: 'What is the title of your Project?',
     name: 'title',
-},
-{
-    type: 'input',
-    message: 'What is your Github user name?',
-    name: 'userName',
 },
 {
     type: 'input',
@@ -70,6 +67,34 @@ inquirer
 },
 
 ])
+//Let the magic begin
 .then((data) =>{
+
     console.log(data);
+//let's set up what we want to put in the file
+const readMeGen = 
+`"##"${data.title}
+
+
+"#"${data.license}
+
+"#Description"
+${data.description}
+
+"#Installation Instructions"
+${data.installation}
+
+"#Usage"
+${data.usage}
+
+"#Contributing"
+${data.contributor}
+
+"#Tests"
+${data.test}`;
+
+//let's create the file
+const fileName = `${data.title.toUpperCase().split(' ').join('')}.md`
+fs.writeFile(fileName, readMeGen);
+
 });

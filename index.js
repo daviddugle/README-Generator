@@ -76,6 +76,21 @@ const readMeGen =
 `#${data.title}
 
 
+
+
+
+
+
+![License](https://img.shields.io/badge/license-${data.license.split(' ').join('')}-green)
+
+
+
+
+
+
+
+
+
 ####Table of Contents
 
 
@@ -91,11 +106,31 @@ const readMeGen =
 
 
 
-##${data.license}
+
+
+
+
+
+
+
+
+
+
+
+
 
 ##Description
 
 ${data.description}
+
+
+
+
+
+
+
+
+
 
 
 ##Installation Instructions
@@ -103,14 +138,41 @@ ${data.description}
 ${data.installation}
 
 
+
+
+
+
+
+
+
+
+
 ##Usage
 
 ${data.usage}
 
 
+
+
+
+
+
+
+
+
+
 ##Contributing
 
 ${data.contributor}
+
+
+
+
+
+
+
+
+
 
 
 ##Tests

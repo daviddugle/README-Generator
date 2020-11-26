@@ -73,28 +73,35 @@ inquirer
     console.log(data);
 //let's set up what we want to put in the file
 const readMeGen = 
-`"##"${data.title}
+`##${data.title}
 
 
-"#"${data.license}
+#${data.license}
 
-"#Description"
+#Description
 ${data.description}
 
-"#Installation Instructions"
+#Installation Instructions
 ${data.installation}
 
-"#Usage"
+#Usage
 ${data.usage}
 
-"#Contributing"
+#Contributing
 ${data.contributor}
 
-"#Tests"
+#Tests
 ${data.test}`;
 
 //let's create the file
 const fileName = `${data.title.toUpperCase().split(' ').join('')}.md`
-fs.writeFile(fileName, readMeGen);
+fs.writeFile(fileName, readMeGen, (err)=>{
+    if (err)
+        console.log("err")
+    ;
+    else {
+        console.log("Success!")
+    };
+});
 
 });

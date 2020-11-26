@@ -120,7 +120,7 @@ In terminal
 
 ![DeployedPhoto](https://github.com/daviddugle/README-Generator/blob/main/assets/generator.jpg?raw=true)
 
-place your photo in the parentheses
+
 
 
 

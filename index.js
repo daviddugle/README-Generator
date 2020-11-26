@@ -103,11 +103,13 @@ const readMeGen =
 
 [Contributing](##Contributing)
 
-[Github-link](##Github)
+[Questions](##Questions)
 
 [Tests](##Tests)
 
 [Photos](##Photos)
+
+[Video](##Video)
 
 
 
@@ -159,9 +161,15 @@ ${data.contributor}
 
 
 
-## Github
+## Questions
 
+I can be reached via Github or email, please see the appropriat links below.
+
+Github:
 <a href='https://github.com/${data.userName}' target='_blank'>${data.userName}</a>
+
+Email:
+<a href='mailto:${data.email}'>${data.email}</a>
 
 
 
@@ -177,7 +185,18 @@ ${data.test}
 
 ![DeployedPhoto]()
 
-place your photo in the parentheses`;
+place your photo in the parentheses
+
+
+
+
+## Video
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+`;
 
 //let's create the file
 const fileName = `${data.title.toUpperCase().split(' ').join('')}.md`

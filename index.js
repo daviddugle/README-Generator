@@ -53,8 +53,9 @@ inquirer
     choices: 
     ["Apache License 2.0",
     "GNU General Public License v3.0",
-    "MIT License","BSD 2-Clause 'Simplified' License", 
-    "BSD 3-Clause 'New' or 'Revised' License",
+    "MIT License",
+    "BSD 2Clause 'Simplified' License", 
+    "BSD 3Clause 'New' or 'Revised' License",
     "Boost Software License 1.0", 
     "Creative Commons Zero v1.0 Universal", 
     "Eclipse Public License 2.0",
@@ -73,7 +74,7 @@ inquirer
     console.log(data);
 //let's set up what we want to put in the file
 const readMeGen = 
-`#${data.title}
+`# ${data.title}
 
 
 
@@ -91,7 +92,7 @@ const readMeGen =
 
 
 
-####Table of Contents
+### Table of Contents
 
 
 [Description](##Description)
@@ -102,8 +103,11 @@ const readMeGen =
 
 [Contributing](##Contributing)
 
+[Github-link](##Github)
+
 [Tests](##Tests)
 
+[Photos](##Photos)
 
 
 
@@ -119,7 +123,8 @@ const readMeGen =
 
 
 
-##Description
+
+## Description
 
 ${data.description}
 
@@ -127,13 +132,7 @@ ${data.description}
 
 
 
-
-
-
-
-
-
-##Installation Instructions
+## Installation Instructions
 
 ${data.installation}
 
@@ -142,12 +141,7 @@ ${data.installation}
 
 
 
-
-
-
-
-
-##Usage
+## Usage
 
 ${data.usage}
 
@@ -157,11 +151,7 @@ ${data.usage}
 
 
 
-
-
-
-
-##Contributing
+## Contributing
 
 ${data.contributor}
 
@@ -169,15 +159,25 @@ ${data.contributor}
 
 
 
+## Github
+
+<a href='https://github.com/${data.userName}' target='_blank'>${data.userName}</a>
 
 
 
 
 
+## Tests
 
-##Tests
+${data.test}
 
-${data.test}`;
+
+
+## Photos
+
+![DeployedPhoto]()
+
+place your photo in the parentheses`;
 
 //let's create the file
 const fileName = `${data.title.toUpperCase().split(' ').join('')}.md`

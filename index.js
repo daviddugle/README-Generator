@@ -170,7 +170,7 @@ ${data.contributor}
 
 ## Questions
 
-I can be reached via Github or email, please see the appropriat links below.
+I can be reached via Github or email, please see the appropriate links below.
 
 Github:
 <a href='https://github.com/${data.userName}' target='_blank'>${data.userName}</a>

@@ -98,7 +98,7 @@ Email is the best method.
 
 ## Questions
 
-I can be reached via Github or email, please see the appropriat links below.
+I can be reached via Github or email, please see the appropriate links below.
 
 Github:
 <a href='https://github.com/daviddugle' target='_blank'>daviddugle</a>

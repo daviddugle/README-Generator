@@ -19,23 +19,23 @@
 ### Table of Contents
 
 
-* [Description](##Description)
+* [Description](#Description)
 
-* [Installation](##Installation)
+* [Installation](#Installation)
 
-* [Technologies](##Technologies)
+* [Technologies](#Technologies)
 
-* [Usage](##Usage)
+* [Usage](#Usage)
 
-* [Contributing](##Contributing)
+* [Contributing](#Contributing)
 
-* [Questions](##Questions)
+* [Questions](#Questions)
 
-* [Tests](##Tests)
+* [Tests](#Tests)
 
-* [Photos](##Photos)
+* [Photos](#Photos)
 
-* [Video](##Video)
+* [Video](#Video)
 
 
 

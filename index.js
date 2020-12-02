@@ -82,7 +82,7 @@ const readMeGen =
 
 
 
-![License](https://img.shields.io/badge/license-${data.license.split(' ').join('')}-green)
+![License](https://img.shields.io/badge/license-${data.license.split(' ').join('%20')}-green)
 
 
 
